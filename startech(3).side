@@ -1,0 +1,1671 @@
+{
+  "id": "78569635-dc00-4735-87a8-254a880697ea",
+  "version": "2.0",
+  "name": "STechLtd-TP01",
+  "url": "https://www.startech.com.bd",
+  "tests": [{
+    "id": "958594f6-e05a-49fe-b53f-47eb4fb23bdb",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "e71ed6f1-39e4-47d2-878b-1e14ea335e20",
+    "name": "URL_Test",
+    "commands": [{
+      "id": "12e0ea22-70f1-4dee-96c2-d904caf5c587",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a6af0f7-49fa-41d2-bb12-c13d377aa862",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19688c78-3729-44f2-80c1-96dfe436e436",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy Policy",
+      "targets": [
+        ["linkText=Privacy Policy", "linkText"],
+        ["css=.footer-block li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy Policy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/privacy')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c96dec6d-b218-4ff3-9dc8-5e3a5f47c124",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.footer-block li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/about_us')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ddb4831-3a90-4736-aa6b-e1a424eb10f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms and Conditions",
+      "targets": [
+        ["linkText=Terms and Conditions", "linkText"],
+        ["css=.footer-block li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms and Conditions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/warranty-policy')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms and Conditions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1540423c-183f-416f-9fa5-107a3b999e2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.footer-block li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/blog')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d543a4b-de39-4107-8a4f-31967399f061",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.footer-block li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/information/contact')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad376d44-540c-4c9d-9543-e8bbcd099079",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Delivery",
+      "targets": [
+        ["linkText=Online Delivery", "linkText"],
+        ["css=.footer-block li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Delivery')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/online-delivery')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e88dcd-b454-48f5-aa1c-5fff6d7cfe43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Refund and Return Policy",
+      "targets": [
+        ["linkText=Refund and Return Policy", "linkText"],
+        ["css=.footer-block li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Refund and Return Policy')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/refund-policy')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Refund and Return Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a171a8fd-c142-4892-8d89-e28c09b5940c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brands",
+      "targets": [
+        ["linkText=Brands", "linkText"],
+        ["css=.footer-block li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Brands')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/product/manufacturer')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "11298f46-74f9-4bb0-b08b-6457db1e1352",
+    "name": "App_Check",
+    "commands": [{
+      "id": "46fbb273-615a-453f-8fb9-e8e5d6bae0a6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2b01724-e178-4509-8d73-5437f28c764d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e67157f6-98bc-4e57-8367-ea67e3c4709d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.app-link:nth-child(1) .app-store",
+      "targets": [
+        ["css=.app-link:nth-child(1) .app-store", "css:finder"],
+        ["xpath=//span[2]/span[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5747",
+      "windowTimeout": 2000
+    }, {
+      "id": "8aa76cdd-5913-4c46-ad8f-45b0731c9f22",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61987a73-707f-4644-8e66-0424cd51750d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5747}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21dbf9ac-9961-4bac-83bf-aaddd06768f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,88.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea27d91b-e8cc-4ddc-b241-77c710784cad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e488a276-52bd-48f6-bbf2-7a8234017e1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.app-link:nth-child(2) .download",
+      "targets": [
+        ["css=.app-link:nth-child(2) .download", "css:finder"],
+        ["xpath=//a[2]/span[2]/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4511",
+      "windowTimeout": 2000
+    }, {
+      "id": "fe49f71b-70f8-4747-aaf8-19b9990459bf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4511}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f232ce88-4b74-4409-89f8-d15cc1d483c6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c206e46e-85d9-4f56-b8a9-98e7f636c494",
+    "name": "Location_Check",
+    "commands": [{
+      "id": "06adb7a3-bab9-4da9-ae39-c2944ed70a06",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b309572d-f798-449f-872e-ee65dfc1d2a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96216922-1753-4acb-b5e8-d5eb1d489577",
+      "comment": "",
+      "command": "click",
+      "target": "css=.store-locator-btn > h5",
+      "targets": [
+        ["css=.store-locator-btn > h5", "css:finder"],
+        ["xpath=//a[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Find Our Stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0fbb13-9489-4dd5-b29f-2664f684b63c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address:nth-child(1) a",
+      "targets": [
+        ["css=.address:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://goo.gl/maps/DLHz6iFYuDgN1uee7')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5076",
+      "windowTimeout": 2000
+    }, {
+      "id": "89cc6d2a-065e-41e5-9abf-fd918dbe60f7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b22efdcc-d493-41b3-a748-b16b10ada19c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5076}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b32f82d-43eb-480b-a694-2b37ee3f6e8f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.yra0jd",
+      "targets": [
+        ["css=.yra0jd", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10789e52-9d86-4f29-81f7-b73864e8b7b0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.yra0jd",
+      "targets": [
+        ["css=.yra0jd", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5152ba59-a9f6-404b-b963-eda99348e8bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hh2c6:nth-child(3)",
+      "targets": [
+        ["css=.hh2c6:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div/div[2]/div/div/div/div/div[3]/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47475781-ac20-465e-98e5-12fe928d238d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hh2c6:nth-child(3)",
+      "targets": [
+        ["css=.hh2c6:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div/div[2]/div/div/div/div/div[3]/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cafa28f6-481e-408f-8801-a81437acb725",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.atHn2d > .NP7r5c",
+      "targets": [
+        ["css=.atHn2d > .NP7r5c", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div/div/ul/li[6]/button/div", "xpath:idRelative"],
+        ["xpath=//li[6]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "747095ab-5e1c-42e6-b757-710eaeb98bd2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.atHn2d > .NP7r5c",
+      "targets": [
+        ["css=.atHn2d > .NP7r5c", "css:finder"],
+        ["xpath=//div[@id='QA0Szd']/div/div/div/div/ul/li[6]/button/div", "xpath:idRelative"],
+        ["xpath=//li[6]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f28a6f51-cc26-4f2b-82b5-628994f90d09",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c07af96-df41-41b4-ae9f-d86b5170c817",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address:nth-child(6) .material-icons",
+      "targets": [
+        ["css=.address:nth-child(6) .material-icons", "css:finder"],
+        ["xpath=//div[6]/div/div[3]/a/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4336",
+      "windowTimeout": 2000
+    }, {
+      "id": "102ff4bd-e4a5-43f6-a31c-b0153c7d5bb1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4336}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a3b7cc60-a6ce-4cc4-a30d-26615cb6c1eb",
+    "name": "Search_Loc",
+    "commands": [{
+      "id": "afe6718a-226d-4393-829f-066fad2c2e20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79e49d16-c37f-40d6-978f-653efe938cd1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b6e0f8-8aa8-40ee-ad18-7ad959a4f564",
+      "comment": "",
+      "command": "click",
+      "target": "css=.store-locator-btn > h5",
+      "targets": [
+        ["css=.store-locator-btn > h5", "css:finder"],
+        ["xpath=//a[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Find Our Stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a580766-156f-4a5a-abb0-6334caba1fd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b58b789b-0ae4-45bf-9517-d27166daae47",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "dhaka"
+    }, {
+      "id": "ef2cb163-886a-4eb9-a6f9-37b8fb3e9e43",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-search",
+      "targets": [
+        ["id=button-search", "id"],
+        ["css=#button-search", "css:finder"],
+        ["xpath=//i[@id='button-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c397ba4-ac02-4c8d-9c44-e152b0db16d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a3eb0e5-1729-4490-860c-84c680867fa4",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "abcd"
+    }, {
+      "id": "6acbfa9c-be9d-4bc2-9f76-770fcfeee4d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-search",
+      "targets": [
+        ["id=button-search", "id"],
+        ["css=#button-search", "css:finder"],
+        ["xpath=//i[@id='button-search']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b0c5afa-dd7a-417e-b4f3-fd0a2b5baadb",
+    "name": "Email_send",
+    "commands": [{
+      "id": "de13b02f-9319-4bb4-8033-53abadb2b789",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1bf3510-5ea4-4c95-8440-1468558a20ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d9f99c1-0fc6-45d1-9a30-42583ad7ec88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=webteam@startechbd.com",
+      "targets": [
+        ["linkText=webteam@startechbd.com", "linkText"],
+        ["css=.footer-block > p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'webteam@startechbd.com')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mailto:webteam@startechbd.com')]", "xpath:href"],
+        ["xpath=//div[3]/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'webteam@startechbd.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1e6d1bc-91c5-4f5e-95ba-1a893a9ab8da",
+    "name": "Social-media",
+    "commands": [{
+      "id": "8e8836f5-76c0-4306-88bb-2e6122d76e48",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a2a0244-6ef4-4c4f-8dfc-e445b2260ba7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a743e7b4-1bf5-4c9f-91ec-07fc78d40c72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fb",
+      "targets": [
+        ["css=.fb", "css:finder"],
+        ["xpath=//div[2]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6076",
+      "windowTimeout": 2000
+    }, {
+      "id": "70531c0c-13b2-402a-90f0-3e3277550490",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbef2d3f-68d5-4cce-99e9-711ad78968cc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6076}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36a63c59-0639-4a9a-96d5-a10bc14efdad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e865f46d-6faa-4b57-9ac1-f4e285d14de2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.youtube",
+      "targets": [
+        ["css=.youtube", "css:finder"],
+        ["xpath=//div[2]/a[2]/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9530",
+      "windowTimeout": 2000
+    }, {
+      "id": "0b068fe6-337f-4a2d-bf41-b319a2efab78",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9530}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00f4db2a-3f83-4f39-8bba-e6a8e272bcd6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6076}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fba5d162-8e88-413a-af20-292959fae2e5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a4e8851d-4c18-4060-93e0-1a8b5f0b1432",
+    "name": "Online_Support",
+    "commands": [{
+      "id": "233a614a-a8ce-41e2-85d0-18e8e0119435",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cede4727-fb18-48bb-9db2-7793ff42433c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "990f585b-2c66-4467-a3e0-1aca9f10b08c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Service Support",
+      "targets": [
+        ["linkText=Online Service Support", "linkText"],
+        ["css=.footer-block li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Service Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://support.stel.com.bd/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Service Support')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3693",
+      "windowTimeout": 2000
+    }, {
+      "id": "f96ae4f8-07c7-417a-9346-f0c92ab69041",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "412564fe-d8fb-4b58-958e-8ba77f430890",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3693}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27cfa312-4f03-41ca-9708-c597925f5727",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.input-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb7567fd-310e-40c3-ac29-99ffe0bcbb88",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.input-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Rana"
+    }, {
+      "id": "9882555a-97d9-4f64-829b-6c7d1937fbab",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4c80ab-2973-41e2-8277-c4ffe8c80b3a",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Hossain"
+    }, {
+      "id": "6ed3ceb4-884f-4e4b-9ac4-f99fb9d73a01",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22711e5e-2bef-472f-9b00-e564346d5895",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "hossainrubaiba@gmail.com"
+    }, {
+      "id": "c0cb5a59-7f79-4d69-902f-804a6c0429b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=field.1",
+      "targets": [
+        ["name=field.1", "name"],
+        ["css=.input-1", "css:finder"],
+        ["xpath=//input[@name='field.1']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "913c25fc-1ad3-4c98-a71b-79ee38a64ffa",
+      "comment": "",
+      "command": "type",
+      "target": "name=field.1",
+      "targets": [
+        ["name=field.1", "name"],
+        ["css=.input-1", "css:finder"],
+        ["xpath=//input[@name='field.1']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "fa076dd3-bd49-4327-864d-9adb55039d45",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-title",
+      "targets": [
+        ["id=input-title", "id"],
+        ["name=title", "name"],
+        ["css=#input-title", "css:finder"],
+        ["xpath=//input[@id='input-title']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2528cc0-6534-4aeb-acb5-e82cbec78383",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-title",
+      "targets": [
+        ["id=input-title", "id"],
+        ["name=title", "name"],
+        ["css=#input-title", "css:finder"],
+        ["xpath=//input[@id='input-title']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "absbdb"
+    }, {
+      "id": "53a65236-aad6-4905-94ad-023bdd8c3d91",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//textarea[@id='input-description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee18b4be-51d4-46bb-bd30-db2460650a06",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//textarea[@id='input-description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "ahjbdshvfdbhdxkcn"
+    }, {
+      "id": "a4be8246-8fca-4e3c-b534-e721fa0f99a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-complain",
+      "targets": [
+        ["css=.btn-complain", "css:finder"],
+        ["xpath=//input[@value='Submit Your Request']", "xpath:attributes"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f8a38d8-8f0e-4976-9d45-277943b6d407",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0992ba85-e067-4116-9267-8f468537eef6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Service Support",
+      "targets": [
+        ["linkText=Online Service Support", "linkText"],
+        ["css=.footer-block li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Service Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://support.stel.com.bd/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Service Support')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1776",
+      "windowTimeout": 2000
+    }, {
+      "id": "2bf7bfd0-2b11-4f51-927c-11ff4107f433",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1776}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c9b7440-7540-4a78-a8ea-a959f773711b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//textarea[@id='input-description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09b13936-5b0a-4de0-9539-8a8e01becc71",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.input-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05a6a0e7-32bd-4d44-9543-4f28b21b402e",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.input-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Rubaiba"
+    }, {
+      "id": "a65da9b6-18a0-4553-af6c-7a9218a81838",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d308850-11e3-4fa0-bb00-4ffa5c5d13d5",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Hossain"
+    }, {
+      "id": "6121e924-4a71-487d-bb81-b2214164e2a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c082af-694a-49a5-a8e6-78c354b71820",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "hossainrubaiba@gmail.com"
+    }, {
+      "id": "2b1ea421-c0bc-4380-a65b-9b6672ed6465",
+      "comment": "",
+      "command": "click",
+      "target": "name=field.1",
+      "targets": [
+        ["name=field.1", "name"],
+        ["css=.input-1", "css:finder"],
+        ["xpath=//input[@name='field.1']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a3f1e38-35ae-494b-b0ef-5e151f37160d",
+      "comment": "",
+      "command": "type",
+      "target": "name=field.1",
+      "targets": [
+        ["name=field.1", "name"],
+        ["css=.input-1", "css:finder"],
+        ["xpath=//input[@name='field.1']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "abbcxh"
+    }, {
+      "id": "8e5856dc-6e54-45bd-a8d4-878cfc07dfa5",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-title",
+      "targets": [
+        ["id=input-title", "id"],
+        ["name=title", "name"],
+        ["css=#input-title", "css:finder"],
+        ["xpath=//input[@id='input-title']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb30c8f-dda9-4997-9807-428cd290e8b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-title",
+      "targets": [
+        ["id=input-title", "id"],
+        ["name=title", "name"],
+        ["css=#input-title", "css:finder"],
+        ["xpath=//input[@id='input-title']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "2323"
+    }, {
+      "id": "e2bb16ef-78cf-48dd-ba9f-4b9a366dbd0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//textarea[@id='input-description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b4d6e41-9264-4659-aa2b-ef9f96369620",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//textarea[@id='input-description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "zvfdvgfdgv"
+    }, {
+      "id": "e23a57b5-6db5-4f9e-b12d-bdd52b81d540",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-complain",
+      "targets": [
+        ["css=.btn-complain", "css:finder"],
+        ["xpath=//input[@value='Submit Your Request']", "xpath:attributes"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6e36b6-d77c-4baa-8fbd-f1280b1fb083",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8994e9d6-87b7-447e-975b-02b80e4fed5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Service Support",
+      "targets": [
+        ["linkText=Online Service Support", "linkText"],
+        ["css=.footer-block li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Service Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://support.stel.com.bd/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Service Support')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9990",
+      "windowTimeout": 2000
+    }, {
+      "id": "8d8b2b3e-6419-4d05-83e8-9304f2bb392a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9990}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab1e729a-b0ee-40e6-9c8d-7e06beab6daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-complain",
+      "targets": [
+        ["css=.btn-complain", "css:finder"],
+        ["xpath=//input[@value='Submit Your Request']", "xpath:attributes"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "238a9be0-1328-4d41-95ea-e503b8666d89",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f242f0c8-e9e9-4daa-87b5-16fadc55d436",
+    "name": "Offers",
+    "commands": [{
+      "id": "a2aa960a-d662-428a-bbf1-7053da652bef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "517fd9f0-fcd4-4e11-878d-90c407a26516",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5542b9f0-149b-43a8-a9e5-a0ce88b7da0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac:nth-child(1) h5",
+      "targets": [
+        ["css=.ac:nth-child(1) h5", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[3]/a/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66612bdc-1f6d-4a08-b5e5-be6b79b64c1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(2) .btn",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View Details')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/information/offer/info?offer_id=893')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a43db1f-91ea-4c74-9852-1bf462942f6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy Your Favorite Television",
+      "targets": [
+        ["linkText=Buy Your Favorite Television", "linkText"],
+        ["css=ul:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Buy Your Favorite Television')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/television-shop')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buy Your Favorite Television')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a5d89a-ddff-43fb-b239-dd1d28937489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) .btn-add-cart > .material-icons",
+      "targets": [
+        ["css=.p-item:nth-child(2) .btn-add-cart > .material-icons", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[3]/div[3]/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div[3]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad060b82-4bab-4370-8992-28c84defedc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b63a1a2b-e6b3-496a-b244-5c613575ce02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger > .material-icons",
+      "targets": [
+        ["css=.btn-danger > .material-icons", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a2fb9c21-cefd-45cf-b945-2b183c04e280",
+    "name": "Promo_Code_check",
+    "commands": [{
+      "id": "95e50dc9-38f6-49fd-baf0-5558bf44096b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "728d2725-2327-489e-99af-c701b3b32011",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc7c47ce-2fff-4b50-b530-98f256593ee0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-offer-icon:nth-child(1)",
+      "targets": [
+        ["css=.h-offer-icon:nth-child(1)", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/information/offer')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec01184-c9da-4b1a-becb-31c598f17167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(2) .btn",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View Details')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/information/offer/info?offer_id=893')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fcac1e2-acba-4e92-80c8-a03544c3ba9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy Your Favorite Television",
+      "targets": [
+        ["linkText=Buy Your Favorite Television", "linkText"],
+        ["css=ul:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Buy Your Favorite Television')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/television-shop')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buy Your Favorite Television')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca6a8b2-4b73-466b-992f-cdd9287efa30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) .btn-add-cart",
+      "targets": [
+        ["css=.p-item:nth-child(2) .btn-add-cart", "css:finder"],
+        ["xpath=(//span[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[3]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f7d13f-79f4-4c72-a0cd-7e129c753d98",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.st-outline",
+      "targets": [
+        ["css=.st-outline", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "778e9221-448b-414d-b22d-2eb24c9685e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.st-outline",
+      "targets": [
+        ["css=.st-outline", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b4e5b5b-62b1-45e6-bb68-ec8131883b65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8137267b-bbcc-487a-a27d-d8d83d23e3d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08387016-7bb6-4a34-8ffe-a8bde70177a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "abcdd"
+    }, {
+      "id": "f34c3c82-0b8b-4d79-bacb-26ed8d35c1eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-coupon",
+      "targets": [
+        ["id=button-coupon", "id"],
+        ["css=#button-coupon", "css:finder"],
+        ["xpath=//input[@id='button-coupon']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c74d856d-7205-4250-9323-f94fef323114",
+    "name": "Promo-Code_check-2",
+    "commands": [{
+      "id": "ea83140e-a4fc-4274-8071-3c09292dc0fd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2cb3033-dcd4-46cd-b3a8-63a06d96d1ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eba756e3-562a-4549-babd-ffbf9e2f000e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac:nth-child(1) h5",
+      "targets": [
+        ["css=.ac:nth-child(1) h5", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[3]/a/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bcbaf46-aba1-4c12-aae5-943d91d11f76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(3) .btn",
+      "targets": [
+        ["css=.col-lg-4:nth-child(3) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View Details')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/information/offer/info?offer_id=923')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd0b5dcb-7865-4b9c-bdb6-482696028fe4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Infinix Hot 30 Smartphone (4/128GB)",
+      "targets": [
+        ["linkText=Infinix Hot 30 Smartphone (4/128GB)", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Infinix Hot 30 Smartphone (4/128GB)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/infinix-hot-30')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Infinix Hot 30 Smartphone (4/128GB)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f16f427-0dff-4390-8105-2898a8eaed17",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52904d66-ef86-4d8d-9a2c-a132db1bf064",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c307b7-a8cc-4ab0-a891-b76f383958f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "357dd7a8-6bab-4683-9246-f53131d2055f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6440bd00-81ef-4867-91db-b015dd26d882",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-coupon",
+      "targets": [
+        ["id=button-coupon", "id"],
+        ["css=#button-coupon", "css:finder"],
+        ["xpath=//input[@id='button-coupon']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9cebc464-fbfe-445c-b917-7fbc0d6c7795",
+    "name": "Offers_Sorting",
+    "commands": [{
+      "id": "074f9959-8dc2-4f0b-a4ca-29a7122e54ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8929e8d-43da-4f43-9102-1d35d7011706",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db69188c-9cfb-408a-88e9-32088504e5bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac:nth-child(1) p",
+      "targets": [
+        ["css=.ac:nth-child(1) p", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[3]/a/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Latest Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93dd3765-4fee-419c-9401-7496e01c1ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4:nth-child(2) .btn",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'View Details')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/information/offer/info?offer_id=893')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128d9c1a-13b1-4f93-a3e8-110c751ea526",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Buy Your Favorite Television",
+      "targets": [
+        ["linkText=Buy Your Favorite Television", "linkText"],
+        ["css=ul:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Buy Your Favorite Television')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/television-shop')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buy Your Favorite Television')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7c67801-f485-4095-99e0-3a28fbf2d076",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "12.399993896484375,18.600006103515625"
+    }, {
+      "id": "088c83e7-1a99-49f4-9c38-6b9b74060337",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "12.399993896484375,18.600006103515625"
+    }, {
+      "id": "d406125c-cd2e-4747-9bfa-73e5bfeb73c7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "12.399993896484375,18.600006103515625"
+    }, {
+      "id": "faef3aac-3b87-4880-add9-fd53d1d634cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ca504ce-e0de-4c59-8f7c-82c45ec200dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=status",
+      "targets": [
+        ["name=status", "name"],
+        ["css=.filter-group:nth-child(2) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='status']", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[2]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d1e5275-5718-495b-9594-e5307992182a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(5) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(5) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[16]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[5]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "751d109a-a806-450c-a1ef-22598e647b24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(4) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(4) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[12]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[4]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72987790-f19d-4f92-b4ad-2f4400404133",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(6) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(6) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[19]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[6]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61ea49ae-0250-4682-be32-20d3a89df5d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(7) .filter:nth-child(1) > span",
+      "targets": [
+        ["css=.filter-group:nth-child(7) .filter:nth-child(1) > span", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div[7]/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'HDR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7320180-7061-498b-ba93-9c11d5d20a26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(7) .filter:nth-child(4)",
+      "targets": [
+        ["css=.filter-group:nth-child(7) .filter:nth-child(4)", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div[7]/div[2]/label[4]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'Netflix')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd50ce2c-4695-4b11-b038-4e5d039366c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(3) .filter:nth-child(2) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(3) .filter:nth-child(2) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[2]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[3]/div[2]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "213eeee8-0a59-4fa7-ac04-b83c1cf951fd",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "258.4000015258789,113.60000610351562"
+    }, {
+      "id": "266e8277-c30c-4d0c-8ae6-f0e0b1692760",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "258.4000015258789,113.60000610351562"
+    }, {
+      "id": "ec7393a7-21dc-436b-b574-bd270d926e19",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "258.4000015258789,113.60000610351562"
+    }, {
+      "id": "d265c563-9714-47c5-a76f-3089449661ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c358c7-168c-4355-bb53-284e496b63c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pf-wrap",
+      "targets": [
+        ["css=.pf-wrap", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//column/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38f8ca7a-8695-40a0-99ec-d283e71dc427",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(7) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(7) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[22]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[7]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f6365e20-72d4-4875-b70f-c342e4c220c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["958594f6-e05a-49fe-b53f-47eb4fb23bdb"]
+  }],
+  "urls": ["https://www.startech.com.bd/"],
+  "plugins": []
+}

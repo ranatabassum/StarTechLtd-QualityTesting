@@ -1,0 +1,3176 @@
+{
+  "id": "31deb781-b190-44ee-9a16-f6404aec0d44",
+  "version": "2.0",
+  "name": "Startech",
+  "url": "https://www.startech.com.bd",
+  "tests": [{
+    "id": "136c92dd-b3fc-43c7-9e73-14da40fecacd",
+    "name": "otp_right",
+    "commands": [{
+      "id": "af36c1f5-4edb-43fa-a2ab-ca5a755a941e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "984d8fda-7259-4610-84e0-e9e845930cd9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad245475-82f9-4716-971b-5c4699a5a8ce",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e74f9e2-bfe5-474e-9324-4ff51cdd8dd5",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-firstname",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c74d3be3-5d6c-4254-9984-400b7951d5ac",
+      "comment": "",
+      "command": "//type",
+      "target": "id=input-firstname",
+      "targets": [],
+      "value": "Rana"
+    }, {
+      "id": "d3b49a77-3d63-4ef9-905a-a68da830da8d",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-lastname",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "714dc9f2-dcb6-4328-8226-d8cb8281dfae",
+      "comment": "",
+      "command": "//type",
+      "target": "id=input-lastname",
+      "targets": [],
+      "value": "Tabassum"
+    }, {
+      "id": "7187a48f-6148-4cef-be2c-d0f00458d622",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27543d6-8905-45de-a896-1930cec944a9",
+      "comment": "",
+      "command": "//type",
+      "target": "id=input-email",
+      "targets": [],
+      "value": "hossainrubaiba@gmail.com"
+    }, {
+      "id": "eff68ce4-f3f9-4804-a07f-efb1399ed7df",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-telephone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfb38f3b-aa79-4d1b-9480-94050d8245e4",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.ac-layout",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ea12528-b40c-48f8-b6d2-59f96f22e178",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-telephone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7522c79-b22d-42e4-9928-6208628691eb",
+      "comment": "",
+      "command": "//click",
+      "target": "id=input-telephone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "162fcd7b-6251-4acd-93f4-84c6269fcf28",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-telephone",
+      "targets": [],
+      "value": "01312406739"
+    }, {
+      "id": "496393aa-2983-47c6-ab4e-a130988fdf97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08eb7961-2a9a-43b9-93b9-aa91b26f6bf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-otp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a11a67d-d930-4264-bd55-eb7da038088a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-otp",
+      "targets": [],
+      "value": "1546"
+    }, {
+      "id": "a7120334-2722-46e1-a865-723f026cc6f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80100db4-726f-42e5-8136-560645e454f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [],
+      "value": "1111"
+    }, {
+      "id": "c35de14f-0cda-479e-a899-6e8537af450f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-confirm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c2aec0-4dda-474c-b793-20ee41de2e6e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-confirm",
+      "targets": [],
+      "value": "1111"
+    }, {
+      "id": "7fc3f1c5-43e0-4b82-8c0e-4da28acf4b9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9e3e06ed-1f43-4694-ab10-5ea1c9d2acbe",
+    "name": "LOGIN",
+    "commands": [{
+      "id": "e10d8d3b-e5e0-4169-9906-e30aed881576",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "219f7301-99ed-41b4-a24e-fb9a4fb482f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "717b8cbc-1621-4d2b-aab6-7b5a79d196ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/account/logout')]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9c0ea20-66c5-4d52-bcf7-aa065696c24c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/login')])[3]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79a085f7-0282-4dd7-8c50-fbb0c24d6c0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "1111"
+    }, {
+      "id": "f48f2038-a242-4211-9462-51bcaff6a57d",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b76e27-da9d-44fa-89a4-b518893296c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "9564d5a9-813b-4689-a2a1-381280ee1edd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-layout",
+      "targets": [
+        ["css=.ac-layout", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f6f6cc-a642-4f80-9b42-cae9a4aedc9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5026366b-7729-4ee9-add7-e0f802cc6605",
+    "name": "CHANGE_PASS",
+    "commands": [{
+      "id": "23450e86-7588-4d5f-a581-66bce1fdb794",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77d9846b-ec03-4458-aa80-cb883028afe3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acc293c8-c6c5-414e-ad51-b464a6d1575d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/account')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c14524f-0887-4333-bda3-9b255aa97a82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-menu-item:nth-child(3) span:nth-child(2)",
+      "targets": [
+        ["css=.ac-menu-item:nth-child(3) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Change Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbdf3221-2184-4c3d-95db-f6811b96182a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb1dd86a-abc1-4e1d-ac9d-043c2e100c23",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "2222"
+    }, {
+      "id": "2bd2f9b7-e4b6-45e5-a669-3f7c4ace5cc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-confirm",
+      "targets": [
+        ["id=input-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#input-confirm", "css:finder"],
+        ["xpath=//input[@id='input-confirm']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f8cea4-6a7e-4756-a87a-5426d4374e46",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-confirm",
+      "targets": [
+        ["id=input-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#input-confirm", "css:finder"],
+        ["xpath=//input[@id='input-confirm']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "2222"
+    }, {
+      "id": "d0552f18-aeac-4855-8813-34f20f503782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a9221c9-822a-4f3a-95bd-248d366f7a58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-menu-item:nth-child(3) span:nth-child(2)",
+      "targets": [
+        ["css=.ac-menu-item:nth-child(3) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Change Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "789403b0-1afd-4edb-97e3-5f82fee61be2",
+    "name": "Login with corect info 15 times",
+    "commands": [{
+      "id": "5bc0d085-3d5a-474e-ad71-814d1e207a1a",
+      "comment": "",
+      "command": "times",
+      "target": "15",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29ef219a-b817-4722-95e6-2b403ae16d7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd16011-135b-4eca-bd2f-98f0fa634923",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4db57e2-7e87-42bd-8b19-f9aab83e3202",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/account/logout')]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b17bbc9-ab05-4915-9f35-5d8a6879ccdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/login')])[3]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa59164-dd08-4538-8583-b0ca8dfdb6f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "451fb747-f244-42f9-b9d6-fa9ee4fd94ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "2222"
+    }, {
+      "id": "7b7f4c7e-100e-481e-9966-8d50870c255d",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "105.33331298828125,11"
+    }, {
+      "id": "a59428bd-14e9-4926-b37d-492f135ca9e9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "105.33331298828125,11"
+    }, {
+      "id": "4df1dbb4-5bed-4089-a7be-c279ffdeb6bb",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "105.33331298828125,11"
+    }, {
+      "id": "96955dc1-3215-437a-857f-0d26988db3b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d06c5b-e1b1-4fb9-abd8-da720bfc0e33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-layout",
+      "targets": [
+        ["css=.ac-layout", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac115070-3ce0-44f8-a173-aac878aff4eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99e61bc2-c7fb-47a5-ba22-0cd3dcc5a273",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "60977168-09ed-4e06-8a67-cb2eb358f769",
+    "name": "forgot_pass",
+    "commands": [{
+      "id": "f26c4b58-5a34-48d1-820a-843f6f67f7e2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc404926-0a7a-4c37-abcc-024697916f52",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c1c7e66-8e8c-417c-a4e0-0de85b065590",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/account/logout')]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a2598af-5d40-402a-9de0-70f503ed5d17",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/login')])[3]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08dd080a-49dd-4ab0-9281-377f76731181",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "b478596a-1cef-4cd1-b4a6-6892934db0ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "2222"
+    }, {
+      "id": "3afad408-2cf8-4c85-adc0-d5b3dedc62ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten Password?",
+      "targets": [
+        ["linkText=Forgotten Password?", "linkText"],
+        ["css=.forgot-password", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten Password?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/account/forgotten')]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "065f71c8-70b2-4656-b6d8-2591e2d1903a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "786ba2a4-e24e-48bc-a152-fb9be94473fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2147d29c-26f5-4a27-ab1e-3b2551134edb",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "6865f2ee-5c5c-47d2-9817-60d630e31ffa",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "2222"
+    }, {
+      "id": "8d4b3554-4dab-4b50-8cc0-46f3388ed868",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c86c29b-0877-4e57-8456-91d4cf395302",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d32f6b4-c2c7-427d-ba7d-faaa1a8758da",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96ea2f2a-ca98-474d-b47d-d216cb910b9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-layout",
+      "targets": [
+        ["css=.ac-layout", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e66df7d7-8d12-4e0a-b974-59530ecf93cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1bee6e9-211a-4896-81e9-944b1df87225",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac104f4a-35aa-48f3-aa0d-d952382479e3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d90a63a-6dd8-4957-9e25-193de809ba19",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "66662e2d66"
+    }, {
+      "id": "e0684d8e-84fd-414b-840f-71bfb432c4ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a898a50d-b7cd-4980-bc3a-04e31c0e2c89",
+    "name": "wrong_pass",
+    "commands": [{
+      "id": "7e74f622-fce8-45ea-b639-767aaf6a83fd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b548cbc9-5b99-4445-8724-84c29da9bfdf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b81e6d1-e49a-4974-b2e5-5cb12600a638",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/login')])[3]", "xpath:href"],
+        ["xpath=//p/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a6e92bd-680a-4bfa-aade-08c7d56fd2aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "01312406739"
+    }, {
+      "id": "d7615db0-b76a-46dc-8e4d-4030aaebf970",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "66662e2d66"
+    }, {
+      "id": "3d23157e-7fbf-4e91-a768-0a6f343cc0ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "616b1a7d-5bc9-42c3-9273-a6b5919685bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7971169e-7677-48d6-b739-31b2efc3b0f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "gtudjsa"
+    }, {
+      "id": "2926c4bf-2997-48cf-8d35-5efadc523a09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8abb82f-a975-41ba-b35f-8c95d78de4ce",
+    "name": "wishlist_check",
+    "commands": [{
+      "id": "28850788-add2-42a7-b707-32e80522a546",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55cff319-089e-40ca-88b3-828ef2cfda16",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1268e6e-0292-4567-8bb3-3625ef7e2dde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(12) img",
+      "targets": [
+        ["css=.cat-item:nth-child(12) img", "css:finder"],
+        ["xpath=//img[@alt='Headphone']", "xpath:img"],
+        ["xpath=//div[12]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a05099e-3ac4-48da-ab2d-5b55d82d9151",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HiFuture FutureTour Hybrid Active Noise Canceling Overhead Headphone",
+      "targets": [
+        ["linkText=HiFuture FutureTour Hybrid Active Noise Canceling Overhead Headphone", "linkText"],
+        ["css=.p-item:nth-child(1) .p-item-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'HiFuture FutureTour Hybrid Active Noise Canceling Overhead Headphone')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[3]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/hifuture-futuretour-active-noise-canceling-headphone')])[2]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HiFuture FutureTour Hybrid Active Noise Canceling Overhead Headphone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb236c7-fc08-4043-8aea-3c33dc4bca36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-list > .material-icons",
+      "targets": [
+        ["css=.add-list > .material-icons", "css:finder"],
+        ["xpath=//div[2]/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'bookmark_border')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ef8433-4bb9-4676-af47-94c415d98c05",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .btn",
+      "targets": [
+        ["css=a > .btn", "css:finder"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "78d0951d-a312-44e0-987b-fd06de795d0c",
+    "name": "edit_profile",
+    "commands": [{
+      "id": "5292058a-3c52-4b90-a358-cd34b52658e3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "404498fc-8418-4e48-9946-bc6e6240c50a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91064995-cb09-493e-ad59-bc079cd74c72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/account')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95b3e3eb-de7f-4672-8cab-6362f581dd8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-menu-item:nth-child(2) .material-icons",
+      "targets": [
+        ["css=.ac-menu-item:nth-child(2) .material-icons", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ae3931-b66c-4bb4-8c3e-2507e4e58b0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d353079-c58c-4d84-94e5-d5f06a2212b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Tabassum"
+    }, {
+      "id": "40bf23e1-731a-4054-8b07-03a9a605c9d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d48427-8aff-4b9f-a856-c7b895a1c293",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a8b5013-2205-4a9b-a0ec-b9653a5fafd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-edit",
+      "targets": [
+        ["css=.account-edit", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f3dc71f-c463-473d-9ed0-6611e66f4319",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Sadman"
+    }, {
+      "id": "8e4389f6-8449-4c48-9f22-3e7734b519ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2067c254-9c9a-4399-be27-ec322630ab65",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Rafi"
+    }, {
+      "id": "be1b1580-f860-4c14-b76c-9830c607ec44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "198136cf-81fa-42da-ad87-1bb9d0b960a0",
+    "name": "ADD_TO_CART",
+    "commands": [{
+      "id": "15593919-8a88-4a73-84f2-3c0a9311dcec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ca36c94-e88f-4945-9aa9-c9b14585ece6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db7b61ec-77bb-403d-b258-ebd90bf50c22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(4) > .cat-item-inner",
+      "targets": [
+        ["css=.cat-item:nth-child(4) > .cat-item-inner", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/mobile-phone')])[7]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07e94658-9fc3-48b2-af7c-520b6afa5559",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(6) .btn-add-cart",
+      "targets": [
+        ["css=.p-item:nth-child(6) .btn-add-cart", "css:finder"],
+        ["xpath=(//span[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[6]/div/div[3]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[3]/div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "134eb127-6ceb-4198-bb34-d5d8dab2c386",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9d292a4-cf97-4d3d-8a4a-1f27220392ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart",
+      "targets": [
+        ["id=cart", "id"],
+        ["css=#cart", "css:finder"],
+        ["xpath=//div[@id='cart']", "xpath:attributes"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aab9c2fe-f23a-40f1-a9c0-1adfccba9a23",
+    "name": "ADD_TO_CART_INCREMENT",
+    "commands": [{
+      "id": "b8a74e94-81ff-4927-b5e0-af9023487530",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "758717f6-bf17-445b-8100-30839b4061d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "452014e0-aa11-44a3-a21f-54bd56e339ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(12) img",
+      "targets": [
+        ["css=.cat-item:nth-child(12) img", "css:finder"],
+        ["xpath=//img[@alt='Headphone']", "xpath:img"],
+        ["xpath=//div[12]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6dca3d-5602-4995-a1d8-76c1d163156d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) .btn-add-cart",
+      "targets": [
+        ["css=.p-item:nth-child(1) .btn-add-cart", "css:finder"],
+        ["xpath=//span[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[3]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98acbeff-8fc2-4c7c-942e-c124d99fbbc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e80063b1-1abf-412e-a66d-1475c6962fa3",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]",
+      "targets": [
+        ["name=quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]", "name"],
+        ["css=.btn-block > .form-control", "css:finder"],
+        ["xpath=//input[@name='quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]']", "xpath:attributes"],
+        ["xpath=//td[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69869c5e-0415-4dbf-9810-ab513cf2491e",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]",
+      "targets": [
+        ["name=quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]", "name"],
+        ["css=.btn-block > .form-control", "css:finder"],
+        ["xpath=//input[@name='quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjI4MTAwO30=]']", "xpath:attributes"],
+        ["xpath=//td[4]/div/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "c22d47b7-1038-4257-aad7-7db3e7bfd587",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary > .material-icons",
+      "targets": [
+        ["css=.btn-primary > .material-icons", "css:finder"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cached')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "761f72d7-4c76-4b7b-b3eb-86367f7016bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart",
+      "targets": [
+        ["id=cart", "id"],
+        ["css=#cart", "css:finder"],
+        ["xpath=//div[@id='cart']", "xpath:attributes"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "90a5d1c7-a658-4774-8fed-353f0c78d640",
+    "name": "promo_code_check",
+    "commands": [{
+      "id": "4185c0f5-a09b-4c18-b6dc-d6aa17fe93f8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae1dc1b-0887-42e1-a7d4-9ab787f69f6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e71bb34-dbfc-4d3c-aaf3-7052faee724b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dot:nth-child(3)",
+      "targets": [
+        ["css=.dot:nth-child(3)", "css:finder"],
+        ["xpath=//div[4]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2be08c-9eaa-4afb-82fb-43c606383829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slide:nth-child(3) .img-responsive",
+      "targets": [
+        ["css=.slide:nth-child(3) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='samsung-ac']", "xpath:img"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "619cc69a-3735-4716-8335-f685d0398724",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "743b46f4-3048-4ca2-a841-079b22ab3f8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03739946-526c-455e-95ce-d05b082c5b24",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9355cb-8dde-4ecd-98da-99b2bc0a3bd7",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-coupon",
+      "targets": [
+        ["id=button-coupon", "id"],
+        ["css=#button-coupon", "css:finder"],
+        ["xpath=//input[@id='button-coupon']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "023361ac-084d-4bf8-9ce3-2513112ddd58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-bt-gray",
+      "targets": [
+        ["css=.bg-bt-gray", "css:finder"],
+        ["xpath=//section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5032c0d-2095-428d-a0f2-945bdd1af650",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart > .label",
+      "targets": [
+        ["css=#cart > .label", "css:finder"],
+        ["xpath=//div[@id='cart']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ecf408e-8043-48b1-9eaf-9ab8b8a86398",
+    "name": "wrong_promo_code",
+    "commands": [{
+      "id": "4069767a-e706-4409-9384-a4ddde9c5a6f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce91a60b-4c37-49ff-84a1-08b9ea0dc62f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2cfd2f0-abc8-4aa5-b7e7-fad631989edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dot:nth-child(3)",
+      "targets": [
+        ["css=.dot:nth-child(3)", "css:finder"],
+        ["xpath=//div[4]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d7bba09-1fb0-419d-bdc4-cd4b92af4bea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slide:nth-child(3) .img-responsive",
+      "targets": [
+        ["css=.slide:nth-child(3) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='samsung-ac']", "xpath:img"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3edfa2fc-b8c7-4b6d-a6fa-cc60de2b3fa2",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1511dedd-8fcb-4268-aa0a-1b34c6f82d7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e0d097-a76f-4ba4-9111-ecca3bbb512e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a1dfb3-6b8a-4113-9ec4-0e8e9f843647",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-coupon",
+      "targets": [
+        ["id=input-coupon", "id"],
+        ["name=coupon", "name"],
+        ["css=#input-coupon", "css:finder"],
+        ["xpath=//input[@id='input-coupon']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "gfkjds"
+    }, {
+      "id": "0e28ed95-9877-4766-97c6-0f556c385540",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-coupon",
+      "targets": [
+        ["id=button-coupon", "id"],
+        ["css=#button-coupon", "css:finder"],
+        ["xpath=//input[@id='button-coupon']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9fd1cec-be53-4210-a9ee-1e1968dca9f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popup-close",
+      "targets": [
+        ["css=.popup-close", "css:finder"],
+        ["xpath=//div[7]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58f4428d-82c4-44b8-a864-978e8de0ed00",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart > .label",
+      "targets": [
+        ["css=#cart > .label", "css:finder"],
+        ["xpath=//div[@id='cart']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae573dd-efda-4a2f-a50b-537bdabdb76c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title > .mc-toggler > .material-icons",
+      "targets": [
+        ["css=.title > .mc-toggler > .material-icons", "css:finder"],
+        ["xpath=//div[@id='m-cart']/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ddb4eb74-e0bd-4dd5-aaee-064163839b87",
+    "name": "compare",
+    "commands": [{
+      "id": "5c6352df-821a-4b41-b6bf-cf9031492753",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eceddd49-579c-4133-9e51-7639392803f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ec9883c-bfb4-4567-94e7-0e21da6e93d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(13) .cat-icon",
+      "targets": [
+        ["css=.cat-item:nth-child(13) .cat-icon", "css:finder"],
+        ["xpath=//div[13]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37daf37-7978-45bd-b708-81c17a341138",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(1) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('28094');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "122efef9-d766-4a32-8dfe-dfe070791f2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cbd2f6a-0687-45fa-bf6d-e0e8226a3c49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.pagination > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[6]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/earphone?page=2')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c8e0169-9531-42db-b8e2-8afbdaed7891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(12) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(12) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('26684');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[12]/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdfa16a2-335f-4bd9-b00f-9778b90dcb16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Compare Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5d60b8-f3ff-4fd0-bd17-b393cf204691",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cmpr-btn > .label",
+      "targets": [
+        ["css=#cmpr-btn > .label", "css:finder"],
+        ["xpath=//div[@id='cmpr-btn']/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50d6ba64-058a-4efb-8043-d4deb5457060",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compare Now",
+      "targets": [
+        ["linkText=Compare Now", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Compare Now')]", "xpath:link"],
+        ["xpath=//div[@id='cmpr-panel']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/product/compare')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Compare Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "de494b47-3ace-4014-889f-330fec795a85",
+    "name": "cart_delete",
+    "commands": [{
+      "id": "74e3314e-0b8a-4c5c-af4e-0fa7006809f9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9744b24-748d-4bb4-aa44-0392abe2d79a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75f4a24-c44b-401f-9fa1-45522ffce5b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(14) img",
+      "targets": [
+        ["css=.cat-item:nth-child(14) img", "css:finder"],
+        ["xpath=//img[@alt='Bluetooth Speakers']", "xpath:img"],
+        ["xpath=//div[14]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12fd869d-3b76-48fb-afdc-0da5aaf1924c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(2) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('28099');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[3]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b878d34-fa6f-42f6-94ca-c73307f1dda9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popup-close",
+      "targets": [
+        ["css=.popup-close", "css:finder"],
+        ["xpath=//body/div[6]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e04fa999-14c7-460f-af01-ec1b22f4ce0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) .btn-add-cart",
+      "targets": [
+        ["css=.p-item:nth-child(2) .btn-add-cart", "css:finder"],
+        ["xpath=(//span[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[3]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64084c6c-d0c5-44e8-9eec-3528c7563c53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7348b26-49ba-4de1-a768-04dfb04e2db5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart",
+      "targets": [
+        ["id=cart", "id"],
+        ["css=#cart", "css:finder"],
+        ["xpath=//div[@id='cart']", "xpath:attributes"],
+        ["xpath=//body/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab50b55-64dc-40cc-badc-d691a4824691",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove > .material-icons",
+      "targets": [
+        ["css=.remove > .material-icons", "css:finder"],
+        ["xpath=//div[@id='m-cart']/div[2]/div/div[3]/i", "xpath:idRelative"],
+        ["xpath=//div[3]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e768a649-8680-4503-8798-6b47b299944d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) > .col-sm-12",
+      "targets": [
+        ["css=.row:nth-child(3) > .col-sm-12", "css:finder"],
+        ["xpath=//section[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ea7035-4c31-49a4-b394-14b32860865d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body > .row",
+      "targets": [
+        ["css=.body > .row", "css:finder"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d9b52c29-74f1-41d2-8669-1bce72708605",
+    "name": "compare_delete",
+    "commands": [{
+      "id": "5c71ca34-b3d3-4b90-9397-22ce198cf4f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ca3ca0-b835-4a56-b64a-ed0d456633ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4efcffb5-c9a0-4473-a957-37fc797d87e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(9) img",
+      "targets": [
+        ["css=.cat-item:nth-child(9) img", "css:finder"],
+        ["xpath=//img[@alt='Graphics Card']", "xpath:img"],
+        ["xpath=//div[9]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c51aff04-4fb5-43c6-86d1-841102dc7fcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(1) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('19393');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589a4db8-1334-41b1-a01e-6eee573431f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d202316-d09c-4fb0-ba43-2926ee8d110a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(2) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('22973');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d5c02c-2748-4864-905d-c18a9b92738b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc0aadca-746e-4a16-a630-e74cc09092bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(3) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(3) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('11917');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[3]/div/div[3]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e404dd7-2e0c-498f-941e-cd612bb3acc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d5a6562-c7fe-43d7-ab3c-a5255869d5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(4) .btn-compare",
+      "targets": [
+        ["css=.p-item:nth-child(4) .btn-compare", "css:finder"],
+        ["xpath=//span[@onclick=\"compare.add('22974');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[4]/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400ad401-59f1-4de6-9874-2e2aa3ba777e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba11822-ee7f-4af2-896b-b59fb24da764",
+      "comment": "",
+      "command": "click",
+      "target": "id=cmpr-btn",
+      "targets": [
+        ["id=cmpr-btn", "id"],
+        ["css=#cmpr-btn", "css:finder"],
+        ["xpath=//div[@id='cmpr-btn']", "xpath:attributes"],
+        ["xpath=//body/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5aee72b-47b0-4812-8934-5ce6a90fd5cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compare Now",
+      "targets": [
+        ["linkText=Compare Now", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Compare Now')]", "xpath:link"],
+        ["xpath=//div[@id='cmpr-panel']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/product/compare')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Compare Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db130023-eff4-4775-854b-3133b204baeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cmpr-btn > .material-icons",
+      "targets": [
+        ["css=#cmpr-btn > .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-btn']/i", "xpath:idRelative"],
+        ["xpath=//body/div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01386fbf-6eb3-4784-b3e1-2cf39a172acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(4) .material-icons",
+      "targets": [
+        ["css=.item:nth-child(4) .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-panel']/div[2]/div[4]/span/i", "xpath:idRelative"],
+        ["xpath=//div[4]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bc6e606-79cc-4b93-af03-0abb64f1fcd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(2) .material-icons",
+      "targets": [
+        ["css=.item:nth-child(2) .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-panel']/div[2]/div[2]/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fe88f0-3c17-4645-ba42-a30d1bfcf15a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .material-icons",
+      "targets": [
+        ["css=.item:nth-child(1) .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-panel']/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b6443c-354c-4d0a-8d6c-4ee18e1b71db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove > .material-icons",
+      "targets": [
+        ["css=.remove > .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-panel']/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d041ed8-a134-44af-99a6-225a68c42de1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmpr-toggler:nth-child(2) > .material-icons",
+      "targets": [
+        ["css=.cmpr-toggler:nth-child(2) > .material-icons", "css:finder"],
+        ["xpath=//div[@id='cmpr-panel']/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ac42050-b9b6-4eef-baea-4f00283b9ac9",
+    "name": "onclick_test",
+    "commands": [{
+      "id": "ff3299d5-74c9-4145-be9a-d6df4e70820b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2710c00-28d7-40e9-83cc-bf6b78aee964",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94d75c25-107d-473b-997a-eabb092aae3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ads img",
+      "targets": [
+        ["css=.ads img", "css:finder"],
+        ["xpath=//img[@alt='home | 5600G PC']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abdf0b8e-b6c2-4b97-8433-756a63ad2a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-more",
+      "targets": [
+        ["css=.view-more", "css:finder"],
+        ["xpath=//div[@id='product']/div/div[2]/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'View More Info')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "360ec283-b954-4fee-b655-46f8fbcc74a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navs li:nth-child(2)",
+      "targets": [
+        ["css=.navs li:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96faf57d-755a-4afd-a380-38be370b358f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navs li:nth-child(2)",
+      "targets": [
+        ["css=.navs li:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83b87f32-eaf7-4c28-bca0-571b36e6a87d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs",
+      "targets": [
+        ["css=.hidden-xs", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Questions (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bbe7289-597b-4e6a-a24b-5a18d034d570",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav > li:nth-child(4)",
+      "targets": [
+        ["css=.nav > li:nth-child(4)", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Reviews (0)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "46e6cc7e-a74f-4a08-a853-84b45adfa6c0",
+    "name": "quantity ad cost",
+    "commands": []
+  }, {
+    "id": "44442cb5-ad59-4ab5-814d-0d9c6084b73c",
+    "name": "add_address",
+    "commands": [{
+      "id": "0ca9e4fc-c30a-4e90-89ce-89d2a64a1eea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d6d2fa9-6cf4-4feb-83ac-180cf548d6c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f4ae315-7e7d-41a7-b75b-bfb1ce5d2275",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/account')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f8fb9b-a3e9-4338-8fc1-abfc52599794",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-menu-item:nth-child(4) > .ico-btn",
+      "targets": [
+        ["css=.ac-menu-item:nth-child(4) > .ico-btn", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/address')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48bb5ada-a677-4675-9ed6-72ac4be375c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-new",
+      "targets": [
+        ["css=.add-new", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/account/address/add')]", "xpath:href"],
+        ["xpath=//div[6]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3f6289-f4cd-4db8-a4f4-857b19c3d9b2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,95.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f2008a-68f1-43ca-8c6c-f3d8163420f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df796cf-cb21-46fa-8863-d8e355b9e0e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Tabassum"
+    }, {
+      "id": "0414081c-54b1-43e5-b848-234b0f7e7d5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Riti"
+    }, {
+      "id": "d17dac4c-4589-42a3-92ce-c888ff4b3376",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-company",
+      "targets": [
+        ["id=input-company", "id"],
+        ["name=company", "name"],
+        ["css=#input-company", "css:finder"],
+        ["xpath=//input[@id='input-company']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Salma Akhter"
+    }, {
+      "id": "53b6bb72-dcd1-4145-b32d-5c942bb0c65d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-address-1",
+      "targets": [
+        ["id=input-address-1", "id"],
+        ["name=address_1", "name"],
+        ["css=#input-address-1", "css:finder"],
+        ["xpath=//input[@id='input-address-1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "28/8, Aamtola, Ashkona"
+    }, {
+      "id": "c534d654-9e58-4554-a5af-2636a05e8682",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-address-2",
+      "targets": [
+        ["id=input-address-2", "id"],
+        ["name=address_2", "name"],
+        ["css=#input-address-2", "css:finder"],
+        ["xpath=//input[@id='input-address-2']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "4th floor"
+    }, {
+      "id": "cd38f651-60d9-4b1b-90ad-63015eafc479",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-city",
+      "targets": [
+        ["id=input-city", "id"],
+        ["name=city", "name"],
+        ["css=#input-city", "css:finder"],
+        ["xpath=//input[@id='input-city']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Dhaka"
+    }, {
+      "id": "3c9d907d-9003-498c-b834-857ac9b9ec6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-postcode",
+      "targets": [
+        ["id=input-postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#input-postcode", "css:finder"],
+        ["xpath=//input[@id='input-postcode']", "xpath:attributes"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "1230"
+    }, {
+      "id": "673501f0-0976-4a8b-972d-f92d8bf3426a",
+      "comment": "",
+      "command": "select",
+      "target": "id=input-zone",
+      "targets": [],
+      "value": "label=Dhaka City"
+    }, {
+      "id": "5a7a5a2f-f07e-437c-96b8-66e99d49bd25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d03731c9-fbca-45b4-b911-2b745a7e9520",
+    "name": "delete_address(failed)",
+    "commands": [{
+      "id": "f1ac3fb4-c497-4d9e-b711-1c735e005836",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5ca8544-4d53-434e-a891-dcf84ba66de2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dae2f4a-f21a-454f-bb2e-684ae423f2f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/account')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c221065-1252-41e7-9100-e22436cde093",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-menu-item:nth-child(4) > .ico-btn",
+      "targets": [
+        ["css=.ac-menu-item:nth-child(4) > .ico-btn", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/account/address')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9bdc94-f342-4b02-be59-1af91061dc46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-icon:nth-child(2) > .material-icons",
+      "targets": [
+        ["css=.ac-icon:nth-child(2) > .material-icons", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa1a404-007e-40a1-b696-72a2cd1603e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-icon:nth-child(2) > .material-icons",
+      "targets": [
+        ["css=.ac-icon:nth-child(2) > .material-icons", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0bd030-9c82-4db0-8ddf-6fd31d54225c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-icon:nth-child(1) > .material-icons",
+      "targets": [
+        ["css=.ac-icon:nth-child(1) > .material-icons", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eec3beee-7ab3-4d87-8374-6e7340f4ca42",
+    "name": "PC_Build",
+    "commands": [{
+      "id": "10e6c67c-00b3-467c-87a4-67b13707f005",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbd4708c-27ec-44ce-8424-9c83b83b2065",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad511dde-5c04-4b7c-ade2-558d25641e83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PC Builder",
+      "targets": [
+        ["linkText=PC Builder", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Builder')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae5ec284-8b47-4b72-9423-67627966b1eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=2')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c26bc2-8dd4-4bbb-af8a-f48b89d9db25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=19087&component_id=2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "871e65ff-d428-41a4-8b5c-267001b63c20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(3) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=4')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7342381e-3711-4b0f-bed8-bd58942ee284",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=9058&component_id=4')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d18d912-933c-4e29-8452-351f83dff9c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(4) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=3')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dbbd58c-ad29-470b-a65c-c251bb5e8312",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=26473&component_id=3')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3a8f0a-8b77-41b0-848f-6b7355ac8504",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,36)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90c33d52-df06-41ec-8b29-4279e5326aee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(5) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=5')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d77cc6-b291-4ba0-9bdc-25a9ec32f278",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=25751&component_id=5')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a06d31f-bbad-439d-a5a0-12ede8fbb534",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(6) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=6')]", "xpath:href"],
+        ["xpath=//div[6]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c842fe-955c-4f3f-8009-5b790ff10edc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=9123&component_id=6')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21917ddd-a9d6-4cbd-a416-78bd5e4af279",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(7) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=7')]", "xpath:href"],
+        ["xpath=//div[7]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3295c310-455e-4e92-bb5f-b9a0b19087fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=19393&component_id=7')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "139a7153-880f-4366-8c9c-244c4682b774",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(8) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=9')]", "xpath:href"],
+        ["xpath=//div[8]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d83c21d1-7bd6-4eea-abf3-f32f3155a861",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=25113&component_id=9')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d88f623-f217-4a71-8383-2258fe99b5a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(9) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=8')]", "xpath:href"],
+        ["xpath=//div[9]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9e57c5-2cf7-47ac-b25e-3e1d905bd838",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=25766&component_id=8')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e886c30-4ed3-43fc-828b-1af50330679b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(11) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=10')]", "xpath:href"],
+        ["xpath=//div[11]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b13eb9-4730-4eb2-8c0b-1116b7ed4c77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=26712&component_id=10')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39af24f7-c2fd-42a3-90c4-f03f0b589824",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(12) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=20')]", "xpath:href"],
+        ["xpath=//div[12]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5656ceb3-727c-40c7-bd6c-e31c05420bbd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=19120&component_id=20')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf2892ba-bc30-4024-972e-6e4e459aa48b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,322)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2cd6212-bc67-4497-a094-0183c89346c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(13) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=11')]", "xpath:href"],
+        ["xpath=//div[13]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "007caafd-8c37-4ad1-b782-5691c1e9e215",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=10923&component_id=11')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0d37bc6-4b2b-4bfe-8e61-a2e610b5a374",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(14) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=12')]", "xpath:href"],
+        ["xpath=//div[14]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf45593-8a5a-4f90-b26d-189a62af7183",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=15141&component_id=12')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "285c08c9-1dab-4e12-810e-60bd26f8a664",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(15) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=16')]", "xpath:href"],
+        ["xpath=//div[15]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42e3cc9-dba0-4996-87e2-31bc224a78b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=12273&component_id=16')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12a8c734-2cba-4f27-9406-1ab629be516c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1067.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f909dfec-418c-404b-809b-522ad20bebc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(16) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=19')]", "xpath:href"],
+        ["xpath=//div[16]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f640333-7356-4f72-af58-06aa79647112",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=7475&component_id=19')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35757f3f-592c-45ff-a6ae-712ff230db0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.st-outline:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=18')]", "xpath:href"],
+        ["xpath=//div[17]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c525d9e-7681-4ff1-92f3-ee41e547736e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add",
+      "targets": [
+        ["linkText=Add", "linkText"],
+        ["css=.product-thumb:nth-child(1) .btn-add", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add?product_id=24320&component_id=18')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec2bb27-9ce4-4b30-b968-5a1999ec5838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.all-actions > .action:nth-child(1)",
+      "targets": [
+        ["css=.all-actions > .action:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/add_to_cart')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80da8e6b-2d82-49ce-b08f-deb22abef5cd",
+    "name": "pc_build_without choice",
+    "commands": [{
+      "id": "0107cb6b-d7fe-48dc-8a46-f71bb9b9b9d5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4aeed51-b68d-4226-8a4a-7e9a9849efdb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c356246e-49c9-4b89-b12a-19a6eb1d5257",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PC Builder",
+      "targets": [
+        ["linkText=PC Builder", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Builder')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c72558-193d-4c1f-8388-7228f7d99248",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action:nth-child(1) > .action-text",
+      "targets": [
+        ["css=.action:nth-child(1) > .action-text", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "62c79b76-9932-4778-aecf-21a295df6674",
+    "name": "remove and hide the unselected things",
+    "commands": [{
+      "id": "029b941f-aad7-4067-a3a4-59be02e9c9b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbc863fc-e559-4838-933b-d3113b6bba98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f61c6f2e-632a-4dca-95cf-380537c11550",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PC Builder",
+      "targets": [
+        ["linkText=PC Builder", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Builder')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d10bf23-421b-4d77-a77a-1e4d83f9cedd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-item:nth-child(5) .action:nth-child(1) > .material-icons",
+      "targets": [
+        ["css=.c-item:nth-child(5) .action:nth-child(1) > .material-icons", "css:finder"],
+        ["xpath=//div[4]/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ef1f4a-62b9-4353-b968-54e42524e078",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-item:nth-child(5) .action:nth-child(1) > .material-icons",
+      "targets": [
+        ["css=.c-item:nth-child(5) .action:nth-child(1) > .material-icons", "css:finder"],
+        ["xpath=//div[4]/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c888bad2-3b71-4f0a-9c05-a48c20150b6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-item:nth-child(6) > .actions",
+      "targets": [
+        ["css=.c-item:nth-child(6) > .actions", "css:finder"],
+        ["xpath=//div[6]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "442e7c9a-1b6f-4b44-b0d7-4028796084bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-item:nth-child(6) .action:nth-child(1) > .material-icons",
+      "targets": [
+        ["css=.c-item:nth-child(6) .action:nth-child(1) > .material-icons", "css:finder"],
+        ["xpath=//div[4]/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9cc058a-eb69-45df-9752-ffbef66355d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-hide",
+      "targets": [
+        ["id=input-hide", "id"],
+        ["name=hide", "name"],
+        ["css=#input-hide", "css:finder"],
+        ["xpath=//input[@id='input-hide']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc03bd9-5c7b-419c-90ea-92a07b875c23",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-hide",
+      "targets": [
+        ["id=input-hide", "id"],
+        ["name=hide", "name"],
+        ["css=#input-hide", "css:finder"],
+        ["xpath=//input[@id='input-hide']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "08cfa08a-3dd8-4676-a471-3b586d49f5a5",
+    "name": "cost sorting_pc building",
+    "commands": [{
+      "id": "1732569a-b5a0-44d4-8e8a-5efb0ed7075a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5165483-3c7a-484c-96dc-c747056d4cde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b7433bf-5ef1-4070-a620-45de05b9a453",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PC Builder",
+      "targets": [
+        ["linkText=PC Builder", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Builder')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div/div/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f7f3d41-9ff2-4738-888f-f3a7f67128b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Choose",
+      "targets": [
+        ["linkText=Choose", "linkText"],
+        ["css=.c-item:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Choose')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tool/pc_builder/choose?component_id=2')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Choose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cffef931-ac79-40f3-8ce2-d81ff5574693",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-base",
+      "targets": [
+        ["css=.noUi-base", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div", "xpath:idRelative"],
+        ["xpath=//column/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96ef6c4d-304c-4883-a44a-f6da41cfd1e3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.empty-content",
+      "targets": [
+        ["css=.empty-content", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "94,54.75"
+    }, {
+      "id": "ea1acc54-8f74-4fad-950a-471c11075a73",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.empty-content",
+      "targets": [
+        ["css=.empty-content", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "94,54.75"
+    }, {
+      "id": "2107d516-0eb8-4f81-8d31-c4b98b1ac304",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.empty-content",
+      "targets": [
+        ["css=.empty-content", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "94,54.75"
+    }, {
+      "id": "7ba68b64-a367-4431-bc52-4cdd038f1ced",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty-content",
+      "targets": [
+        ["css=.empty-content", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40df73ae-ede9-4c30-8e2b-92cb4feb1571",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "14,6.3333282470703125"
+    }, {
+      "id": "d1e8577b-cf3d-4ec7-a846-c972303c5f1d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "14,6.3333282470703125"
+    }, {
+      "id": "bfed6274-7088-408c-977b-7de6a2aaf4c2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "14,6.3333282470703125"
+    }, {
+      "id": "0a932659-25ef-494d-a7b9-10e106d42aa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d6bbd7-bebe-42db-8386-1dc1511c7f23",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=column-left",
+      "targets": [
+        ["id=column-left", "id"],
+        ["css=#column-left", "css:finder"],
+        ["xpath=//column[@id='column-left']", "xpath:attributes"],
+        ["xpath=//column", "xpath:position"]
+      ],
+      "value": "7,82.33333206176758"
+    }, {
+      "id": "2d814356-cdf7-44df-b10a-20385fa22e41",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=column-left",
+      "targets": [
+        ["id=column-left", "id"],
+        ["css=#column-left", "css:finder"],
+        ["xpath=//column[@id='column-left']", "xpath:attributes"],
+        ["xpath=//column", "xpath:position"]
+      ],
+      "value": "7,82.33333206176758"
+    }, {
+      "id": "a0dfc900-946f-4a1e-922b-a9942c0b0882",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=column-left",
+      "targets": [
+        ["id=column-left", "id"],
+        ["css=#column-left", "css:finder"],
+        ["xpath=//column[@id='column-left']", "xpath:attributes"],
+        ["xpath=//column", "xpath:position"]
+      ],
+      "value": "7,82.33333206176758"
+    }, {
+      "id": "e8af0be7-1687-4478-b75d-f8eff922d26d",
+      "comment": "",
+      "command": "click",
+      "target": "id=column-left",
+      "targets": [
+        ["id=column-left", "id"],
+        ["css=#column-left", "css:finder"],
+        ["xpath=//column[@id='column-left']", "xpath:attributes"],
+        ["xpath=//column", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d76229d1-21b0-48ff-a95d-37663c51ff23",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["136c92dd-b3fc-43c7-9e73-14da40fecacd"]
+  }],
+  "urls": ["https://www.startech.com.bd/"],
+  "plugins": []
+}

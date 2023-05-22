@@ -1,0 +1,1460 @@
+{
+  "id": "7687397d-6905-4341-9bb6-e74670b0ef37",
+  "version": "2.0",
+  "name": "startech",
+  "url": "https://www.startech.com.bd",
+  "tests": [{
+    "id": "c2359823-cbc6-4d8e-860a-5637033bb003",
+    "name": "headphn ckh",
+    "commands": [{
+      "id": "5c682df9-d556-455b-8edb-4d86c2911f13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e57ce688-fc56-4d88-bd48-76e5466b8063",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1192b386-dfc6-44ea-b59d-8d238cf1e3ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(12) .cat-icon",
+      "targets": [
+        ["css=.cat-item:nth-child(12) .cat-icon", "css:finder"],
+        ["xpath=//div[12]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02e77bdc-79f9-43d4-845d-cb74c1760b93",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "98.39999389648438,11.800003051757812"
+    }, {
+      "id": "c257ab36-9cf8-4395-a5ca-515de1950df5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "109.39999389648438,6.8000030517578125"
+    }, {
+      "id": "5b4a1de4-74fe-42f8-aaca-d19b7b9646df",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "109.39999389648438,6.8000030517578125"
+    }, {
+      "id": "06fa9905-bdcd-4b36-a648-29334baf50e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ea8f1535-5cc5-4239-b8c9-fa7810c61ff8",
+    "name": "searching 5 times",
+    "commands": [{
+      "id": "99a20f16-b89f-4be0-af28-273fb1239f25",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02758f27-a0f6-42e9-bbea-9b6526a884bf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14df2750-1059-4d7a-9577-529d9b517644",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35da1bb1-f927-4939-9847-91ab0f8a9a6c",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4478aac0-b0f5-4d14-a433-2ec85e36dbf7",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "apple macbook"
+    }, {
+      "id": "33882c34-b4bd-42db-bd1f-69eb5a17a7de",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b1fa5a0c-00c9-4e9a-a9e3-1f2874d92ef8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "80325193-94d2-44b1-8d0d-8db69eb6f212",
+    "name": "macbook pro ",
+    "commands": [{
+      "id": "91c35ab7-e63f-4c2c-add4-d366184df0df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "203dfba7-1678-4dea-8156-d5345f0e24fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f96cfe1-ccc5-4281-aff5-b2b76bad96e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "201b2b41-a494-40f7-b0d4-8297a03e4186",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro"
+    }, {
+      "id": "ff635688-e376-420b-9880-7532e38626ad",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "85c4a12b-483f-4dde-b5fb-65ec9d1f5652",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac905f5f-d0c6-4e76-b0a2-661192591059",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76569525-9db9-4a13-be42-1d0a5d4a7964",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28a5176e-4ea3-4baa-8c8e-c90c2e837539",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "214d7d37-bd49-49a6-90ff-db0d2b3f6113",
+    "name": "submit without email",
+    "commands": [{
+      "id": "87d73e37-96a8-42f6-bc90-d3ea277f67d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86c0f86e-c66c-4c2c-a8d7-f8938c63a064",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9715c2b-d59c-4eb6-8366-1bd730cf0773",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b8a7118-31e8-4bc0-ae9a-5f165286fe69",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro "
+    }, {
+      "id": "76db0535-fc50-4613-8ae6-a3733a072f84",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c0e230cb-04c1-4699-9766-97efb80f9102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1537430e-28ca-41c5-831f-321f15ff8b0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354e1656-baf4-40b0-bbf1-99987463a31b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "130b86b0-60cb-4dcc-ae9b-7a0ed60aacac",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-address",
+      "targets": [
+        ["id=input-address", "id"],
+        ["name=address_1", "name"],
+        ["css=#input-address", "css:finder"],
+        ["xpath=//input[@id='input-address']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d08070-7d89-4ff4-8f1f-5ed49bcccc49",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-address",
+      "targets": [
+        ["id=input-address", "id"],
+        ["name=address_1", "name"],
+        ["css=#input-address", "css:finder"],
+        ["xpath=//input[@id='input-address']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "390/G6 , Baf base bbd"
+    }, {
+      "id": "07d49b94-b690-45ab-a876-4ce1c0c886de",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "azraf"
+    }, {
+      "id": "4490577c-e0c2-4157-9ecd-6a3197b00a47",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "faheem"
+    }, {
+      "id": "911d74c7-d857-43b4-bf2f-ae5b1ea7d0d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-telephone",
+      "targets": [
+        ["id=input-telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#input-telephone", "css:finder"],
+        ["xpath=//input[@id='input-telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "01521377588"
+    }, {
+      "id": "7dc986e9-2534-4fa9-996b-f9f3ed11a26d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-city",
+      "targets": [
+        ["id=input-city", "id"],
+        ["name=city", "name"],
+        ["css=#input-city", "css:finder"],
+        ["xpath=//input[@id='input-city']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Dhaka"
+    }, {
+      "id": "d864acf7-ecd1-49bc-bd3a-364f55bedd9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a7b41e-b475-42f6-8f15-097a6083a06e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c91c00be-adae-45ad-af4e-099e22cd5a23",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02937ba0-113f-40a2-80a0-692ee7955803",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//p[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a06b4c6-5c1a-456d-ac2a-053c75dcb93a",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//p[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80d4a7b7-d3fb-45f9-910e-3f6a84822c66",
+    "name": "confirm without terms and condition ",
+    "commands": [{
+      "id": "80f212a7-5d0f-4e00-a0d1-92803d58e839",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d43d6da1-d2a1-449b-875a-95b2dc6fedfd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616367a3-34ee-411c-b55d-91863f1f4c99",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0becc0-cee7-40a6-8553-7732649b58f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro"
+    }, {
+      "id": "39a6ed55-c305-417d-a060-add89605666e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e443e356-bfaf-43d1-9631-775ce00cf5ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0036416b-8ad0-4fa2-b8a1-1607f5b84037",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22adb689-9e2e-4815-8b48-776436de2544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c08740c-ee27-4335-92cb-f2afab5f1210",
+      "comment": "",
+      "command": "click",
+      "target": "name=agree",
+      "targets": [
+        ["name=agree", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='agree']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfbfbb49-0c7d-4392-924b-b4292c2f6add",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bd054f13-beb4-4f56-89c2-38a8e2fd94d3",
+    "name": "laptop deals check",
+    "commands": [{
+      "id": "067878fb-818e-4750-8991-93d6f8ae64cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5236036f-d387-4fe0-8ad9-86e728174396",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "924a05a7-d56b-4b53-b5e1-dd870191cdcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-cat",
+      "targets": [
+        ["css=.m-cat", "css:finder"],
+        ["xpath=//div[5]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab5e80b0-198c-4ee3-a689-61ad369c155b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac:nth-child(2) h5",
+      "targets": [
+        ["css=.ac:nth-child(2) h5", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div[3]/a[2]/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Laptop Deal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c8951a-0e09-44ab-a6a8-44f2c9d0de3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dell Vostro 14 3400 Core i3 11th Gen 14\" HD Laptop",
+      "targets": [
+        ["linkText=Dell Vostro 14 3400 Core i3 11th Gen 14\" HD Laptop", "linkText"],
+        ["css=.p-item:nth-child(2) .p-item-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Dell Vostro 14 3400 Core i3 11th Gen 14\" HD Laptop')]", "xpath:link"],
+        ["xpath=//div[@id='module-769']/div/div[2]/div/div[3]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/dell-vostro-14-3400-laptop')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dell Vostro 14 3400 Core i3 11th Gen 14\" HD Laptop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2349431c-bff6-4c04-8dc5-3bd231f329a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6007a136-2da2-4f03-b1c4-d4317b2b84d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c8c4797-f22b-40e0-9b2c-453d3d310552",
+    "name": "sorting using monitor size",
+    "commands": [{
+      "id": "8b887e35-6b08-42d1-84d1-2001020ef85c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ba0601f-a895-498d-89db-43c9f7253329",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26e999c7-f41c-47a1-b6b4-3b43ed9ee99c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monitor",
+      "targets": [
+        ["linkText=Monitor", "linkText"],
+        ["css=.c-1:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Monitor')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/monitor')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Monitor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dbbce22-d9ff-4d3e-aea1-13d3d1c6bc0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(3) .filter:nth-child(7) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(3) .filter:nth-child(7) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[7]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[3]/div[2]/label[7]/input", "xpath:idRelative"],
+        ["xpath=//label[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "171afd38-66ee-4f8d-953b-b520dc221547",
+    "name": "preorder ",
+    "commands": [{
+      "id": "62078cc1-cdc8-4c98-b205-efefa262a8ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac041eca-6dc5-4f6e-8d9b-51080842bec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f796e7b0-4f82-4875-a5a2-e1cacab25741",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monitor",
+      "targets": [
+        ["linkText=Monitor", "linkText"],
+        ["css=.c-1:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Monitor')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/monitor')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Monitor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59f1621-d188-404a-9219-17d46e106fa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(2) .filter:nth-child(2) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(2) .filter:nth-child(2) > input", "css:finder"],
+        ["xpath=(//input[@name='status'])[2]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[2]/div[2]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "316ab601-1ef7-41ba-94bf-186e1b7382f3",
+    "name": "sorting in price ",
+    "commands": [{
+      "id": "29952200-091c-4d50-ba5e-e62ba4d51c3b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4219ff-aebd-4f8e-be02-3c3f01f07e46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fe7758e-c244-4e93-bc4c-7e38a94f490b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablet",
+      "targets": [
+        ["linkText=Tablet", "linkText"],
+        ["css=.c-1:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablet')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tablet-pc')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce83eba-37b1-42bd-9072-c76667cd0252",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-lower",
+      "targets": [
+        ["css=.noUi-handle-lower", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "-164.60000610351562,9.600006103515625"
+    }, {
+      "id": "d2162e3d-3292-4358-81cd-faf02d20ef48",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "4.399993896484375,8.600006103515625"
+    }, {
+      "id": "6fca6ac7-5568-4111-bfb2-6af04944133a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "4.399993896484375,8.600006103515625"
+    }, {
+      "id": "e4c5ddce-c066-40ec-afde-e075a51f2749",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-lower",
+      "targets": [
+        ["css=.noUi-handle-lower", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b5025950-52f3-408f-93a6-86125cd0fa70",
+    "name": "zero to zero sorting ",
+    "commands": [{
+      "id": "9efcd785-f07f-4662-8cee-d9edfec6a94f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8f749b4-3f19-4917-89a7-99e97159819f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37c6deb7-83a6-4d20-9bb2-39fe04bd5972",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptop",
+      "targets": [
+        ["linkText=Laptop", "linkText"],
+        ["css=.c-1:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptop')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/laptop-notebook')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c1d4960-cd9b-4be2-8abf-bf5ce0594ffd",
+      "comment": "",
+      "command": "click",
+      "target": "id=range-from",
+      "targets": [
+        ["id=range-from", "id"],
+        ["name=to", "name"],
+        ["css=#range-from", "css:finder"],
+        ["xpath=//input[@id='range-from']", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9166e51a-d668-4a36-94a0-050f2f3e4488",
+      "comment": "",
+      "command": "type",
+      "target": "id=range-from",
+      "targets": [
+        ["id=range-from", "id"],
+        ["name=to", "name"],
+        ["css=#range-from", "css:finder"],
+        ["xpath=//input[@id='range-from']", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "1e97ee1e-c1ed-40d8-ba2e-5e0a393ec184",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=range-from",
+      "targets": [
+        ["id=range-from", "id"],
+        ["name=to", "name"],
+        ["css=#range-from", "css:finder"],
+        ["xpath=//input[@id='range-from']", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "ce12a9d7-bceb-4edb-98d6-679ecd357c7f",
+    "name": "sorting Backlit ",
+    "commands": [{
+      "id": "f34f0aed-8e35-45df-975a-2602d408dea9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b176fea8-4a0c-4302-a989-e04610a0e808",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fad29e36-2e48-4fc0-950f-a6522d9f7769",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptop",
+      "targets": [
+        ["linkText=Laptop", "linkText"],
+        ["css=.c-1:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptop')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/laptop-notebook')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e46ccbc-3b0d-481c-b8d5-50d313b30a1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-group:nth-child(15) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(15) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[88]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[15]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[15]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d8e020-c2be-4e01-ba44-a3b194a66fc4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.filter-group:nth-child(15) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(15) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[88]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[15]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[15]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed15782-7831-4460-b428-a8ebfd563b4a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.filter-group:nth-child(15) .filter:nth-child(1) > input",
+      "targets": [
+        ["css=.filter-group:nth-child(15) .filter:nth-child(1) > input", "css:finder"],
+        ["xpath=(//input[@name='filter'])[88]", "xpath:attributes"],
+        ["xpath=//column[@id='column-left']/div/div[15]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[15]/div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "722adec0-072a-4cd1-8616-0de1ff256f49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) img",
+      "targets": [
+        ["css=.p-item:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='AVITA Essential 14 Celeron N4020 256GB SSD 14\" Full HD Laptop Matt White Color']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9d75770-7b7c-42d9-94f0-357161e8a825",
+    "name": "ssd filtering test",
+    "commands": [{
+      "id": "003d0c15-beef-4ea4-8acf-87bfb0c91c60",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8dfb0f5-0b54-4e7d-85ac-3d9051380e1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1d27570-7e43-40d1-9d57-a4cdea537967",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb186904-8d75-48b5-bcf5-89114dfb3311",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "512gb ssd for desktop"
+    }, {
+      "id": "83ea5f5a-687e-4283-a8da-01d59c768361",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "d5bd017d-75e4-4101-8165-d231f30a616f",
+    "name": "tablet price filtering",
+    "commands": [{
+      "id": "cf7eae14-3dc6-485f-9949-c157607e0e81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2539449-0572-4063-8146-e015a814a3f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3e65248-b75f-4724-a892-20144463c0a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tablet",
+      "targets": [
+        ["linkText=Tablet", "linkText"],
+        ["css=.c-1:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Tablet')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/tablet-pc')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tablet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc62eb3c-862a-4f65-b005-b07eb1d5fa01",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "6.400001525878906,106.60000610351562"
+    }, {
+      "id": "2ff863ae-2506-436f-8ad9-50f9a9664c36",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "6.400001525878906,106.60000610351562"
+    }, {
+      "id": "c22c19b6-9991-4ef5-a0b6-ea459fb7cdc1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": "6.400001525878906,106.60000610351562"
+    }, {
+      "id": "6d7e15c9-0b47-42cc-b4ee-33941b2004c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-filter",
+      "targets": [
+        ["css=.price-filter", "css:finder"],
+        ["xpath=//column[@id='column-left']/div/div", "xpath:idRelative"],
+        ["xpath=//column/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e3025596-e3f2-4d47-ad31-ca334273d4f9",
+    "name": "add Another product when emi is on cart",
+    "commands": [{
+      "id": "38dcf5f9-a867-4a7e-b775-92a9f5b0e148",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "098ffa5f-64ab-482b-8561-160c28723728",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce48adcf-3881-4239-8fbb-7195ce8694e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktop",
+      "targets": [
+        ["linkText=Desktop", "linkText"],
+        ["css=.c-1:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktop')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/desktops')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f6f1f8-8e6b-41ce-be45-a25c7e2cca5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(2) img",
+      "targets": [
+        ["css=.p-item:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='AMD Ryzen 5 5600G Special Black Build Desktop PC']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7617c115-ab36-4849-98c0-3b5c2d0d7fe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-wrap:nth-child(2) > .price",
+      "targets": [
+        ["css=.p-wrap:nth-child(2) > .price", "css:finder"],
+        ["xpath=//div[@id='product']/div/div[3]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'4,505৳/month')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0563fc4-9bf6-4988-aab3-79b871957db7",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45a87c2-9b5c-4e99-9c06-323a94e11334",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popup-close",
+      "targets": [
+        ["css=.popup-close", "css:finder"],
+        ["xpath=//div[8]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815a818d-f1c3-4956-8514-2541b91628ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phone",
+      "targets": [
+        ["linkText=Phone", "linkText"],
+        ["css=.c-1:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phone')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/mobile-phone')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05741df2-a04b-48b0-8637-1d64ba848502",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile Phone Accessories",
+      "targets": [
+        ["linkText=Mobile Phone Accessories", "linkText"],
+        ["css=.nav-item:nth-child(6) .has-child > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobile Phone Accessories')]", "xpath:link"],
+        ["xpath=//nav[@id='main-nav']/div/ul/li[6]/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/mobile-phone-accessories')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobile Phone Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6735ce7-8f84-496c-80b1-c5ede7648d44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ugreen Air Vent Mount Phone Holder #30750/30751",
+      "targets": [
+        ["linkText=Ugreen Air Vent Mount Phone Holder #30750/30751", "linkText"],
+        ["css=.p-item:nth-child(7) .p-item-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ugreen Air Vent Mount Phone Holder #30750/30751')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div[7]/div/div[3]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.startech.com.bd/ugreen-phone-holder')])[2]", "xpath:href"],
+        ["xpath=//div[3]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ugreen Air Vent Mount Phone Holder #30750/30751')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef15e5d-d56d-4861-960f-35174aac3182",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2e925b67-c087-46cb-a8e4-d281de89d5dd",
+    "name": "No discount on EMI",
+    "commands": [{
+      "id": "4e03b7c3-f7e5-4f7c-b7e6-317827a059f8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d26e9be-a6ca-4c0c-b104-39d51c6491f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95af4f90-f9b5-4c22-ab0b-e5f378182bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ads img",
+      "targets": [
+        ["css=.ads img", "css:finder"],
+        ["xpath=//img[@alt='home | 5600G PC']", "xpath:img"],
+        ["xpath=//div[2]/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec864239-260e-4a30-96d0-904208e81737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-wrap:nth-child(2) > .fade",
+      "targets": [
+        ["css=.p-wrap:nth-child(2) > .fade", "css:finder"],
+        ["xpath=//div[@id='product']/div/div[3]/label[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//label[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4be5fd-82f8-4a2f-9d77-f1c069902120",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64528e8f-4c87-4e28-b769-a8ab6bbbeb8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbebd3b9-a389-44c3-86dd-68973cbcb661",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .btn-danger > .material-icons",
+      "targets": [
+        ["css=tr:nth-child(1) .btn-danger > .material-icons", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b2c799f2-f202-4e97-b4d2-0af0819786c3",
+    "name": "online discount check",
+    "commands": [{
+      "id": "f42c8e58-f4b7-40fb-84ea-a2388b2d9b00",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45f4dff0-5851-42e5-af2c-e4b14200e1ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a549804-d95f-471f-af10-2c05eff0e569",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "532ecbc3-4f96-4720-811d-aa5de7e78617",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "phone charger"
+    }, {
+      "id": "147d9f78-3d4a-40cc-9ab7-24153cdeb6ef",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c5f20115-3520-49e9-a44b-25956024a495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) .btn-add-cart",
+      "targets": [
+        ["css=.p-item:nth-child(1) .btn-add-cart", "css:finder"],
+        ["xpath=//span[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div[3]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f568d4e-6444-4a95-ab2f-970e76f435bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-wrap > a:nth-child(1) > .btn",
+      "targets": [
+        ["css=.btn-wrap > a:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "69ea4e43-3b38-4936-a781-7600306ca65e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2359823-cbc6-4d8e-860a-5637033bb003"]
+  }],
+  "urls": ["https://www.startech.com.bd/"],
+  "plugins": []
+}
